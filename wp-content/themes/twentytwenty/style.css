@@ -6469,3 +6469,8 @@ a.to-the-top > * {
 		top: 0;
 	}
 }
+
+/* custom */
+.title-dancing-script {
+	font-family: dancingscript-regular,dancing script,cursive;
+}
