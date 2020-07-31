@@ -6474,3 +6474,11 @@ a.to-the-top > * {
 .title-dancing-script {
 	font-family: dancingscript-regular,dancing script,cursive;
 }
+
+.custom-footer-social-wrapper {
+    margin: 0 auto;
+}
+
+.custom-footer-social-wrapper .footer-social {
+    margin: 0;
+}

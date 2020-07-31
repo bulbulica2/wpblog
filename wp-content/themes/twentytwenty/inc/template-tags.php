@@ -38,7 +38,7 @@ function twentytwenty_site_logo( $args = array(), $echo = true ) {
 	$defaults = array(
 		'logo'        => '%1$s<span class="screen-reader-text">%2$s</span>',
 		'logo_class'  => 'site-logo',
-		'title'       => '<a href="%1$s">%2$s</a>',
+		'title'       => '<a href="%1$s"><span class="title-dancing-script">%2$s</span></a>',
 		'title_class' => 'site-title',
 		'home_wrap'   => '<h1 class="%1$s">%2$s</h1>',
 		'single_wrap' => '<div class="%1$s faux-heading">%2$s</div>',
@@ -636,6 +636,10 @@ function twentytwenty_body_classes( $classes ) {
 	if ( is_page_template( array( 'templates/template-cover.php' ) ) ) {
 		$classes[] = 'overlay-header';
 	}
+
+  if (is_page_template(array('templates/template-with-title.php'))) {
+    $classes[] = 'overlay-title';
+  }
 
 	// Check whether the current page has full-width content.
 	if ( is_page_template( array( 'templates/template-full-width.php' ) ) ) {
