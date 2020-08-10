@@ -98,7 +98,8 @@
 			</div>
 		<?php endif; ?>
 
-		<div class="wp-embed-excerpt"><?php the_excerpt_embed(); ?></div>
+<!--    <div class="wp-embed-excerpt"><a href="--><?php //the_permalink() ?><!--">--><?php //the_excerpt_embed(); ?><!--</a></div>-->
+    <div class="wp-embed-excerpt"><h4><?php the_excerpt_embed(); ?></h4></div>
 
 		<?php
 		/**
@@ -110,7 +111,7 @@
 		?>
 
 		<div class="wp-embed-footer">
-			<?php the_embed_site_title(); ?>
+			<?php the_embed_site_administrator(); ?>
 
 			<div class="wp-embed-meta">
 				<?php

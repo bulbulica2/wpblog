@@ -978,6 +978,10 @@ function the_excerpt_embed() {
 	echo apply_filters( 'the_excerpt_embed', $output );
 }
 
+function the_excerpt_link_embed() {
+    return get_the_excerpt();
+}
+
 /**
  * Filters the post excerpt for the embed template.
  *
@@ -1212,6 +1216,27 @@ function the_embed_site_title() {
 	 * @param string $site_title The site title HTML.
 	 */
 	echo apply_filters( 'embed_site_title_html', $site_title );
+}
+
+function the_embed_site_administrator() {
+    $site_title = sprintf(
+        '<a href="%s" target="_top"><img src="%s" srcset="%s 2x" width="32" height="32" alt="" class="wp-embed-site-icon"/><span>%s</span></a>',
+        esc_url( home_url() ) . '/author/' . esc_html( get_the_author() ),
+        esc_url( get_site_icon_url( 32, includes_url( 'images/w-logo-blue.png' ) ) ),
+        esc_url( get_site_icon_url( 64, includes_url( 'images/w-logo-blue.png' ) ) ),
+        esc_html( get_the_author() )
+    );
+
+    $site_title = '<div class="wp-embed-site-title">' . $site_title . '</div>';
+
+    /**
+     * Filters the site title HTML in the embed footer.
+     *
+     * @since 4.4.0
+     *
+     * @param string $site_title The site title HTML.
+     */
+    echo apply_filters( 'embed_site_title_html', $site_title );
 }
 
 /**

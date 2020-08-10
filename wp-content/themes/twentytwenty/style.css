@@ -6482,3 +6482,18 @@ a.to-the-top > * {
 .custom-footer-social-wrapper .footer-social {
     margin: 0;
 }
+
+.wp-block-column > :last-child,
+.wp-block-column > :first-child{
+    margin-top: inherit;
+    margin-bottom: inherit;
+}
+
+.custom-wp-block-button .wp-block-button {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.custom-wp-block-button .wp-block-button a {
+    width: 70%;
+}
