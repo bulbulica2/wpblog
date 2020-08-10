@@ -6484,7 +6484,7 @@ a.to-the-top > * {
 }
 
 .wp-block-column > :last-child,
-.wp-block-column > :first-child{
+.wp-block-column > :first-child {
     margin-top: inherit;
     margin-bottom: inherit;
 }

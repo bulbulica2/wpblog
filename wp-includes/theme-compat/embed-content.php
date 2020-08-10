@@ -99,7 +99,14 @@
 		<?php endif; ?>
 
 <!--    <div class="wp-embed-excerpt"><a href="--><?php //the_permalink() ?><!--">--><?php //the_excerpt_embed(); ?><!--</a></div>-->
-    <div class="wp-embed-excerpt"><h4><?php the_excerpt_embed(); ?></h4></div>
+    <div class="wp-embed-excerpt">
+      <?php $a = has_excerpt();
+      if (has_excerpt()) { ?>
+        <h4><?php the_excerpt_embed(); ?></h4>
+      <?php } else {
+        the_excerpt_embed();
+      }?>
+    </div>
 
 		<?php
 		/**

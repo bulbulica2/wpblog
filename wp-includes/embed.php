@@ -978,10 +978,6 @@ function the_excerpt_embed() {
 	echo apply_filters( 'the_excerpt_embed', $output );
 }
 
-function the_excerpt_link_embed() {
-    return get_the_excerpt();
-}
-
 /**
  * Filters the post excerpt for the embed template.
  *
