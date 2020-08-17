@@ -6539,3 +6539,36 @@ input[type="submit"] {
 .custom-wp-block-button .wp-block-button a {
     width: 70%;
 }
+
+/*.citeste_mai_mult a:hover,*/
+/* {*/
+.citeste_mai_mult a,
+.restul_de_butoane a {
+    color: #f0dadd;
+    background-color: #990014;
+}
+
+.citeste_mai_mult a:hover,
+.citeste_mai_mult a:active,
+.restul_de_butoane a:hover,
+.restul_de_butoane a:active {
+    color: #5200b0;
+    background-color: #f0dadd;
+}
+
+.home_food a,
+.home_blog a,
+.home_beauty a {
+    color: #5200b0;
+    background-color: #f0dadd;
+}
+
+.home_food a:hover,
+.home_food a:active,
+.home_blog a:hover,
+.home_blog a:active,
+.home_beauty a:hover,
+.home_beauty a:active {
+    color: #f0dadd;
+    background-color: #5200b0;
+}
