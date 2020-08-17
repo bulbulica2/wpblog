@@ -6471,8 +6471,50 @@ a.to-the-top > * {
 }
 
 /* custom */
+@font-face {
+    font-family: 'Dancing Script', cursive;
+    src: url(assets/fonts/DancingScript.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Rozha One', serif;
+    src: url(assets/fonts/RozhaOne.ttf) format("ttf");
+}
+
+@font-face {
+    font-family: 'Libre Baskerville', serif;
+    src: url(assets/fonts/LibreBaskerville.ttf) format("ttf");
+}
+
+p, a, em, strong, .wp-embed-heading, h3, label, .ginput_counter, textarea, .ginput_container,
+.gform_title, .gform_heading,
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content cite,
+.entry-content figcaption,
+.entry-content table,
+.entry-content address,
+.entry-content .wp-caption-text,
+.entry-content .wp-block-file {
+    font-family: 'Libre Baskerville', serif;
+}
+
 .title-dancing-script {
-	font-family: dancingscript-regular,dancing script,cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+.wp-block-button__link,
+.primary-menu,
+.gform_button {
+    font-family: 'Rozha One', serif;
+}
+
+input[type="submit"] {
+    border-radius: 50%;
 }
 
 .custom-footer-social-wrapper {
