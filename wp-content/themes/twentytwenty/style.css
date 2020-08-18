@@ -6513,8 +6513,22 @@ p, a, em, strong, .wp-embed-heading, h3, label, .ginput_counter, textarea, .ginp
     font-family: 'Rozha One', serif;
 }
 
-input[type="submit"] {
+input[id^='gform_submit_button_'],
+#gform_submit_button_1,
+#gform_submit_button_2,
+#gform_submit_button_3 {
     border-radius: 50%;
+    color: #f0dadd;
+    background-color: #570812;
+    transition: 0.4s;
+}
+
+input[id^='gform_submit_button_']:hover,
+#gform_submit_button_1:hover,
+#gform_submit_button_2:hover,
+#gform_submit_button_3:hover {
+    color: #570812;
+    background-color: #f0dadd;
 }
 
 .custom-footer-social-wrapper {
@@ -6540,27 +6554,39 @@ input[type="submit"] {
     width: 70%;
 }
 
-/*.citeste_mai_mult a:hover,*/
-/* {*/
 .citeste_mai_mult a,
 .restul_de_butoane a {
     color: #f0dadd;
     background-color: #990014;
+    transition: 0.4s;
+}
+
+.citeste_mai_mult .wp-block-button__link:hover,
+.home_food .wp-block-button__link:hover,
+.home_blog .wp-block-button__link:hover,
+.home_beauty .wp-block-button__link:hover,
+.restul_de_butoane .wp-block-button__link:hover,
+.blog_cook .wp-block-button__link:hover,
+.blog_read_story .wp-block-button__link:hover,
+.blog_stay_pretty .wp-block-button__link:hover,
+input[id^='gform_submit_button_']:hover {
+    text-decoration: none;
 }
 
 .citeste_mai_mult a:hover,
 .citeste_mai_mult a:active,
 .restul_de_butoane a:hover,
 .restul_de_butoane a:active {
-    color: #5200b0;
+    color: #570812;
     background-color: #f0dadd;
 }
 
 .home_food a,
 .home_blog a,
 .home_beauty a {
-    color: #5200b0;
+    color: #570812;
     background-color: #f0dadd;
+    transition: 0.4s;
 }
 
 .home_food a:hover,
@@ -6570,5 +6596,38 @@ input[type="submit"] {
 .home_beauty a:hover,
 .home_beauty a:active {
     color: #f0dadd;
-    background-color: #5200b0;
+    background-color: #570812;
+}
+
+.blog_cook a,
+.blog_read_story a,
+.blog_stay_pretty a {
+    color: #570812;
+    background-color: #f0dadd;
+}
+
+.blog_cook a:hover,
+.blog_cook a:active,
+.blog_read_story a:hover,
+.blog_read_story a:active,
+.blog_stay_pretty a:hover,
+.blog_stay_pretty a:active {
+    color: #570812;
+    background-color: #f0dadd;
+    font-style: italic;
+    letter-spacing: 0.3em;
+}
+
+.blog_first_three_posts {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.blog_all_posts,
+.latest_posts {
+    text-align: center;
+}
+
+.wp-block-latest-posts.is-grid li {
+    border-top: 0;
 }
