@@ -6635,6 +6635,7 @@ input[id^='gform_submit_button_']:hover {
 .header-footer-group {
     background-image: url( "../../uploads/2020/07/nsplsh_6f73756961744244547777mv2_d_5304_7952_s_4_2.png" ) !important;
     background-repeat: no-repeat !important;
+    background-size: 100% !important;
 }
 
 .site-title,
