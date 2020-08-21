@@ -6631,3 +6631,18 @@ input[id^='gform_submit_button_']:hover {
 .wp-block-latest-posts.is-grid li {
     border-top: 0;
 }
+
+.header-footer-group {
+    background-image: url( "../../uploads/2020/07/nsplsh_6f73756961744244547777mv2_d_5304_7952_s_4_2.png" ) !important;
+    background-repeat: no-repeat !important;
+}
+
+.site-title,
+.entry-title,
+body:not(.overlay-header) .primary-menu > li > a,
+body:not(.overlay-header) .primary-menu > li > .icon,
+.footer-copyright,
+.to-the-top-long,
+.footer-widgets .widget-title {
+    color: #ffffff;
+}
