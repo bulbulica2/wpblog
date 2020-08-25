@@ -6513,11 +6513,24 @@ p, a, em, strong, .wp-embed-heading, h3, label, .ginput_counter, textarea, .ginp
     font-family: 'Rozha One', serif;
 }
 
+body:not(.overlay-header) .primary-menu > li > a,
+.modal-menu > li > .ancestor-wrapper > a,
+.modal-menu > li > .sub-menu > li > .ancestor-wrapper > a,
+button.close-nav-toggle .toggle-text,
+.primary-menu ul a {
+    font-family: 'Rozha One', serif;
+    font-weight: bold;
+}
+
+.modal-menu > li > .ancestor-wrapper > a {
+    color: #000000;
+}
+
 input[id^='gform_submit_button_'],
 #gform_submit_button_1,
 #gform_submit_button_2,
 #gform_submit_button_3 {
-    border-radius: 50%;
+    border-radius: 22%;
     color: #f0dadd;
     background-color: #570812;
     transition: 0.4s;
@@ -6657,4 +6670,8 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 body:not(.overlay-header) #site-header .toggle,
 body:not(.overlay-header) .toggle-inner .toggle-text {
     color: #ffffff;
+}
+
+body:not(.overlay-header) .toggle-inner .toggle-text {
+    font-weight: 700;
 }
