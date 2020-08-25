@@ -6647,3 +6647,14 @@ body:not(.overlay-header) .primary-menu > li > .icon,
 .footer-widgets .widget-title {
     color: #ffffff;
 }
+
+.section-inner .to-the-top {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* for mobile */
+body:not(.overlay-header) #site-header .toggle,
+body:not(.overlay-header) .toggle-inner .toggle-text {
+    color: #ffffff;
+}
