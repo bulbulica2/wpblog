@@ -6689,3 +6689,17 @@ body:not(.overlay-header) .toggle-inner .toggle-text {
 .footer-text-align-center {
     text-align: center;
 }
+
+.widget-content .widget-title {
+    text-align: center;
+}
+
+.heading-size-3 {
+    font-size: 2.3rem;
+}
+
+@media ( max-width: 900px ) {
+    .heading-size-3 {
+        font-size: 1.8rem;
+    }
+}
