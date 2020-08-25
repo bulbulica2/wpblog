@@ -18,7 +18,7 @@
 
 					<div class="footer-credits">
 
-						<p class="footer-copyright title-dancing-script">&copy;
+						<p class="footer-copyright title-dancing-script footer-text-align-center">&copy;
 							<?php
 							echo date_i18n(
 								/* translators: Copyright date format, see https://www.php.net/date */

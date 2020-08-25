@@ -2576,7 +2576,6 @@ h2.entry-title {
 	content: "";
 	display: block;
 	position: absolute;
-	bottom: 50%;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -6674,4 +6673,19 @@ body:not(.overlay-header) .toggle-inner .toggle-text {
 
 body:not(.overlay-header) .toggle-inner .toggle-text {
     font-weight: 700;
+}
+
+.entry-categories-inner a,
+.intro-text p,
+.post-author .meta-icon,
+.post-author .meta-text,
+.post-author .meta-text a,
+.post-date .meta-icon,
+.post-date .meta-text,
+.post-date .meta-text a {
+    color: #ffffff;
+}
+
+.footer-text-align-center {
+    text-align: center;
 }

@@ -17,13 +17,13 @@
 
 	<?php
 
-	get_template_part( 'template-parts/entry-header' );
+  if ( ! is_search() ) {
+    get_template_part( 'template-parts/featured-image' );
+  }
 
-	if ( ! is_search() ) {
-		get_template_part( 'template-parts/featured-image' );
-	}
+  get_template_part( 'template-parts/entry-header' );
 
-	?>
+  ?>
 
 	<div class="post-inner <?php echo is_page_template( 'templates/template-full-width.php' ) ? '' : 'thin'; ?> ">
 
