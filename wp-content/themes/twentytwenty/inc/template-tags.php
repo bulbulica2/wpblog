@@ -423,14 +423,14 @@ function twentytwenty_get_post_meta( $post_id = null, $location = 'single-top' )
 
 					$has_meta = true;
 					?>
-					<li class="post-comment-link meta-wrapper">
-						<span class="meta-icon">
-							<?php twentytwenty_the_theme_svg( 'comment' ); ?>
-						</span>
-						<span class="meta-text">
-							<?php comments_popup_link(); ?>
-						</span>
-					</li>
+<!--					<li class="post-comment-link meta-wrapper">-->
+<!--						<span class="meta-icon">-->
+<!--							--><?php //twentytwenty_the_theme_svg( 'comment' ); ?>
+<!--						</span>-->
+<!--						<span class="meta-text">-->
+<!--							--><?php //comments_popup_link(); ?>
+<!--						</span>-->
+<!--					</li>-->
 					<?php
 
 				}
