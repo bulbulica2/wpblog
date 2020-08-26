@@ -6567,7 +6567,9 @@ input[id^='gform_submit_button_']:hover,
 }
 
 .citeste_mai_mult a,
-.restul_de_butoane a {
+.restul_de_butoane a,
+.citeste_mai_mult a:visited,
+.restul_de_butoane a:visited {
     color: #f0dadd;
     background-color: #990014;
     transition: 0.4s;
@@ -6652,6 +6654,12 @@ input[id^='gform_submit_button_']:hover {
     background-image: url( "../../uploads/2020/07/nsplsh_6f73756961744244547777mv2_d_5304_7952_s_4_2.png" ) !important;
     background-repeat: no-repeat !important;
     background-size: 100% !important;
+}
+
+.header-footer-group-image {
+    background-image: url( "../../uploads/2020/07/nsplsh_6f73756961744244547777mv2_d_5304_7952_s_4_2.png" ) !important;
+    background-repeat: no-repeat !important;
+    background-size: 119.9% !important;
 }
 
 .site-title,
