@@ -6595,7 +6595,11 @@ input[id^='gform_submit_button_']:hover {
 
 .home_food a,
 .home_blog a,
-.home_beauty a {
+.home_beauty a,
+.home_food:visited,
+.home_blog:visited,
+.home_beauty:visited,
+.wp-block-button__link:visited {
     color: #570812;
     background-color: #f0dadd;
     transition: 0.4s;
