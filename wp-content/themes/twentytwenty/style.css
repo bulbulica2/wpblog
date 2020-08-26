@@ -6710,6 +6710,10 @@ body:not(.overlay-header) .toggle-inner .toggle-text {
     font-size: 2.3rem;
 }
 
+.home_image img {
+    border-radius: 50%;
+}
+
 @media ( max-width: 900px ) {
     .heading-size-3 {
         font-size: 1.8rem;
