@@ -1763,7 +1763,7 @@ class NewsletterSubscription extends NewsletterModule {
         }
         
         if (isset($attrs['confirmation_url'])) {
-            $buffer .= "<input type='hidden' name='ncu' value='" . esc_attr($attrs['confirmation_url']) . "'>\n";
+            $form .= "<input type='hidden' name='ncu' value='" . esc_attr($attrs['confirmation_url']) . "'>\n";
         }        
 
         if (isset($attrs['lists'])) {

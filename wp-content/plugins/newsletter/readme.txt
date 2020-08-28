@@ -2,7 +2,7 @@
 Tags: email, email marketing, newsletter, newsletter subscribers, welcome email, signup forms, contact, lead generation, popup, marketing automation
 Requires at least: 3.4.0
 Tested up to: 5.5
-Stable tag: 6.8.5
+Stable tag: 6.8.7
 Requires PHP: 5.6
 Contributors: satollo,webagile,michael-travan
 
@@ -113,10 +113,17 @@ Thank you, The Newsletter Team
 
 == Changelog ==
 
+= 6.8.7 =
+
+* Fix of confirmation_url attribute on minimal subscription form
+
+= 6.8.6 =
+
+* Disabled the default WordPress emoji to image replacer on admin pages of Newsletter
+
 = 6.8.5 =
 
 * Updated Controls class to support the new Reports Addon
-* Fix of confirmation_url attribute on minimal subscription form
 
 = 6.8.4 =
 
