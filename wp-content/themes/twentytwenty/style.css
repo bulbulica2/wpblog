@@ -6715,6 +6715,11 @@ body:not(.overlay-header) .toggle-inner .toggle-text {
     border-radius: 50%;
 }
 
+.descriere_scurta {
+    font-family: 'Dancing Script', cursive;
+    color: #000000;
+}
+
 @media ( max-width: 900px ) {
     .heading-size-3 {
         font-size: 1.8rem;
