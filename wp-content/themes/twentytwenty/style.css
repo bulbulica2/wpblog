@@ -6725,3 +6725,68 @@ body:not(.overlay-header) .toggle-inner .toggle-text {
         font-size: 1.8rem;
     }
 }
+
+/* defined custom for user */
+.libre_baskerville {
+    font-family: 'Libre Baskerville', serif;
+}
+
+.dancing_script {
+    font-family: 'Dancing Script', cursive;
+}
+
+.rozha_one {
+    font-family: 'Rozha One', serif;
+}
+
+.color_ffffff {
+    color: #ffffff;
+}
+
+.color_000000 {
+    color: #000000;
+}
+
+.color_570812 {
+    color: #570812;
+}
+
+.color_f0dadd {
+    color: #f0dadd;
+}
+
+.color_990014 {
+    color: #990014;
+}
+
+.background_color_ffffff {
+    color: #ffffff;
+}
+
+.background_color_000000 {
+    color: #000000;
+}
+
+.background_color_570812 {
+    color: #570812;
+}
+
+.background_color_f0dadd {
+    color: #f0dadd;
+}
+
+.background_color_990014 {
+    color: #990014;
+}
+
+.align_text_right {
+    text-align: right;
+}
+
+.align_text_center {
+    text-align: center;
+}
+
+.align_text_justify {
+    text-align: justify;
+}
