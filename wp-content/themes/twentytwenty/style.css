@@ -6720,9 +6720,21 @@ body:not(.overlay-header) .toggle-inner .toggle-text {
     color: #000000;
 }
 
+.gform_footer {
+    text-align: right;
+}
+
+.entry-title {
+    font-size: 7.4rem;
+}
+
 @media ( max-width: 900px ) {
     .heading-size-3 {
         font-size: 1.8rem;
+    }
+
+    .entry-title {
+        font-size: 3.2rem;
     }
 }
 
