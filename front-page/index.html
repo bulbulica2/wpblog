@@ -304,10 +304,13 @@
 			} else if (window.innerWidth <= 800 && window.innerWidth > 768) {
 				$(".container-title").removeClass("p-5").addClass("p-1");
 				$(".container-images .col").removeClass("m-3").addClass("m-2");
+			} else if (window.innerWidth <= 768 && window.innerWidth > 414) {
+				$(".container-title").removeClass("p-5").addClass("p-1");
+				$(".container-images .col").removeClass("p-3 m-3").addClass("p-1 m-2");
 			} else if (window.innerWidth <= 414 && window.innerWidth > 320) {
 				$(".container-title").removeClass("p-5 m-5").addClass("m-3");
 				if (window.innerWidth === 360 && window.innerHeight === 640) {
-					$(".container-images .col").removeClass("p-3 m-3").addClass("p-2");
+					$(".container-images .col").removeClass("p-3 m-3").addClass("p-1");
 				} else {
 					$(".container-images .col").removeClass("p-3 m-3").addClass("p-1 m-2");
 				}
@@ -318,25 +321,6 @@
 
 			// console.log(window.innerWidth + "x" + window.innerHeight);
 			// alert(window.innerWidth + "x" + window.innerHeight);
-
-			// trebuie verificat pe tablete - ceva default cat de cat
-
-			// DONE: use js on resize to recompute values http://jsfiddle.net/CoryDanielson/LAF4G/
-
-			// DONE: images not loading with firefox
-
-			// DONE: IE nu merge - trebuie verificat si pe versiunile vechi de browsere
-			// fara webp sa vad daca merge .no-webp
-
-			// DONE: add .no-webp .shop_image and .webp .shop_image to all resolutions
-
-			// DONE: uneori da eroare cand se intra prima oara pe pagina la hover - trebuie verificat
-
-			// DONE: trebuie urcat si blog-ul pe /blog si adaugat onclick pe imagine
-
-			// un mesaj ca este inca in constructie pe cealalta
-
-      // migrate database from dev to live - it also updates the favicon and the rest of things
 		}
 
 		function validateResolution(width, height) {
